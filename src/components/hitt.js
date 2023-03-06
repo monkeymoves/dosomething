@@ -173,11 +173,11 @@ const Hitt = () => {
         <div className='hittApp container'>
 
             <>
-            <p> {user.email}  <a href="/do-something" onClick={logout} >logout</a></p> 
+            <p> {user.email}  <a href="/" onClick={logout} >logout</a></p> 
             </>
             {logShow && (
                 <>
-                <p>Log this workout: {exerciseDuration},  {restDuration}, {reps},  {sets} </p>
+                <p>Log this workout: {exerciseDuration},  {restDuration}, {reps},  {sets} , {setBreakTime}</p>
                 <button className="button1" onClick={logData}>
                     Log Data
                 </button>
