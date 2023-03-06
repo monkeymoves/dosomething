@@ -1,0 +1,132 @@
+.signin__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.signin {
+  background-color: #f8f9fa;
+}
+
+.border {
+  border: 1px solid #007bff;
+}
+
+.w-11-12 {
+  width: 91.67%;
+}
+
+.md-w-2-4 {
+  width: 50%;
+}
+
+.rounded {
+  border-radius: 10px;
+}
+
+.py-8 {
+  padding: 8px;
+}
+
+.px-4 {
+  padding: 0 4px;
+}
+
+.md-px-8 {
+  padding: 0 8px;
+}
+
+.text-3xl {
+  font-size: 1.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 2px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.error {
+  background-color: #ff0000;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.signin__ {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  outline: none;
+  margin: 10px;
+}
+
+.myGoogleBTN {
+  padding: '10px 20px';
+    background-color: '#007bff';
+    color: '#fff';
+    border-radius: '4px';
+    border: 'none';
+    cursor: 'pointer';
+    font-weight: 'bold';
+    outline: 'none';
+    margin: '10px';
+}
+
+
+/* CSS */
+.myGoogleBTN {
+  background-color: #FFFFFF;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #222222;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 13px 23px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: auto;
+}
+
+.myGoogleBTN:focus-visible {
+  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+  transition: box-shadow .2s;
+}
+
+.myGoogleBTN:active {
+  background-color: #F7F7F7;
+  border-color: #000000;
+  transform: scale(.96);
+}
+
+.button-23:disabled {
+  border-color: #DDDDDD;
+  color: #DDDDDD;
+  cursor: not-allowed;
+  opacity: 1;
+}

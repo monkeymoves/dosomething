@@ -1,0 +1,109 @@
+.realTime {
+  font-size: calc(20px + 2vmin);
+  color: white;
+}
+
+  .resting  {
+    background-color: green;
+    font-size: calc(20px + 2vmin);
+    color: white;
+  }
+  .working {
+    background-color: red;
+    font-size: calc(20px + 2vmin);
+    color: white;
+
+  } 
+  .beginColour {
+    background-color: #282c34; 
+    font-size: calc(20px + 2vmin);
+    color: white;
+
+}
+
+.elapsedTime{
+    font-size: calc(40px + 2vmin);
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .header {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .timer {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .form-control {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-label {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .form-control::-webkit-outer-spin-button,
+  .form-control::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .form-control[type=number] {
+    -moz-appearance: textfield;
+  }
+  
+  .btn {
+    width: 150px;
+    height: 50px;
+    font-size: 24px;
+    margin-top: 30px;
+    border-radius: 4px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+  }
+  
+  .button1 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
